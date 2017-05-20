@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		20564CFF94FEBF479AD6A5C8 /* Pods_KxSMB_Pod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97735C05D72576D6E6307B91 /* Pods_KxSMB_Pod_Example.framework */; };
+		345A7D351ED077BA00148B3B /* TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345A7D341ED077BA00148B3B /* TreeViewController.m */; };
+		345A7D381ED0781300148B3B /* SmbAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345A7D371ED0781300148B3B /* SmbAuthViewController.m */; };
+		345A7D3B1ED0784700148B3B /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345A7D3A1ED0784700148B3B /* FileViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* NoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* NoAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* NoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* NoViewController.m */; };
+		6003F59E195388D20070C39A /* LZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LZHAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* LZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LZHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,7 +41,13 @@
 
 /* Begin PBXFileReference section */
 		2DEDD71227C8830B473FBD90 /* Pods-KxSMB_Pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KxSMB_Pod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KxSMB_Pod_Example/Pods-KxSMB_Pod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B1E85959047176291C1A641 /* KxSMB_Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KxSMB_Pod.podspec; path = ../KxSMB_Pod.podspec; sourceTree = "<group>"; };
+		345A7D331ED077BA00148B3B /* TreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewController.h; sourceTree = "<group>"; };
+		345A7D341ED077BA00148B3B /* TreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewController.m; sourceTree = "<group>"; };
+		345A7D361ED0781300148B3B /* SmbAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmbAuthViewController.h; sourceTree = "<group>"; };
+		345A7D371ED0781300148B3B /* SmbAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmbAuthViewController.m; sourceTree = "<group>"; };
+		345A7D391ED0784700148B3B /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		345A7D3A1ED0784700148B3B /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		5B1E85959047176291C1A641 /* KxSMB_Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KxSMB_Pod.podspec; path = ../KxSMB_Pod.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KxSMB_Pod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxSMB_Pod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,10 +56,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* KxSMB_Pod-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KxSMB_Pod-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* NoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* NoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* NoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* NoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* LZHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZHAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* LZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* LZHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZHViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* LZHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* KxSMB_Pod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KxSMB_Pod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,8 +74,8 @@
 		8E242ACCC9F27D4A5704DC7E /* Pods_KxSMB_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KxSMB_Pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97735C05D72576D6E6307B91 /* Pods_KxSMB_Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KxSMB_Pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95FD054B65CD4CDCCA800DA /* Pods-KxSMB_Pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KxSMB_Pod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KxSMB_Pod_Tests/Pods-KxSMB_Pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D630D3C35653F60EBF4CA178 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DE276BA325D58BD495CED96E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D630D3C35653F60EBF4CA178 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE276BA325D58BD495CED96E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,14 +141,20 @@
 		6003F593195388D20070C39A /* Example for KxSMB_Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* NoAppDelegate.h */,
-				6003F59D195388D20070C39A /* NoAppDelegate.m */,
+				6003F59C195388D20070C39A /* LZHAppDelegate.h */,
+				6003F59D195388D20070C39A /* LZHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* NoViewController.h */,
-				6003F5A6195388D20070C39A /* NoViewController.m */,
+				6003F5A5195388D20070C39A /* LZHViewController.h */,
+				6003F5A6195388D20070C39A /* LZHViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				345A7D331ED077BA00148B3B /* TreeViewController.h */,
+				345A7D341ED077BA00148B3B /* TreeViewController.m */,
+				345A7D361ED0781300148B3B /* SmbAuthViewController.h */,
+				345A7D371ED0781300148B3B /* SmbAuthViewController.m */,
+				345A7D391ED0784700148B3B /* FileViewController.h */,
+				345A7D3A1ED0784700148B3B /* FileViewController.m */,
 			);
 			name = "Example for KxSMB_Pod";
 			path = KxSMB_Pod;
@@ -394,8 +409,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* NoAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* NoViewController.m in Sources */,
+				345A7D3B1ED0784700148B3B /* FileViewController.m in Sources */,
+				6003F59E195388D20070C39A /* LZHAppDelegate.m in Sources */,
+				345A7D381ED0781300148B3B /* SmbAuthViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* LZHViewController.m in Sources */,
+				345A7D351ED077BA00148B3B /* TreeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

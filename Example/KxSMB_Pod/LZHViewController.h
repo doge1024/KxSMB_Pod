@@ -1,5 +1,5 @@
 //
-//  NoViewController.h
+//  LZHViewController.h
 //  KxSMB_Pod
 //
 //  Created by harddog on 05/20/2017.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface NoViewController : UIViewController
+@interface LZHViewController : UIViewController
 
 @end

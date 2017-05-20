@@ -31,12 +31,16 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'KxSMB_Pod/Classes/**/*'
-  
+  s.ios.vendored_library = 'KxSMB_Pod/Classes/KxSMB/libs/*.a'
+  s.libraries = 'z', 'resolv', 'iconv', 'tdb', 'talloc', 'tevent', 'wbclient', 'smbclient'
+
   # s.resource_bundles = {
   #   'KxSMB_Pod' => ['KxSMB_Pod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'KxSMB_Pod/Classes/KxSMB/KxSMBProvider.h'
+
+  s.frameworks = 'UIKit', 'CoreGraphics', 'Foundation', 'QuickLook'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

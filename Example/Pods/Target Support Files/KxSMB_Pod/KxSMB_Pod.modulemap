@@ -1,0 +1,6 @@
+framework module KxSMB_Pod {
+  umbrella header "KxSMB_Pod-umbrella.h"
+
+  export *
+  module * { export * }
+}

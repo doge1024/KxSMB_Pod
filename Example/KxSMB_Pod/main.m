@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "NoAppDelegate.h"
+#import "LZHAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([NoAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([LZHAppDelegate class]));
     }
 }

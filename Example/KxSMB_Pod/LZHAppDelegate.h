@@ -1,5 +1,5 @@
 //
-//  NoAppDelegate.h
+//  LZHAppDelegate.h
 //  KxSMB_Pod
 //
 //  Created by harddog on 05/20/2017.
@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface NoAppDelegate : UIResponder <UIApplicationDelegate>
+@interface LZHAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
