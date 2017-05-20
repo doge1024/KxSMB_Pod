@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KxSMB_Pod_Example' do
+  pod 'KxSMB_Pod', :path => '../'
+
+  target 'KxSMB_Pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
