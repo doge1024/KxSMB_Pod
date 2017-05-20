@@ -5,16 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/KxSMB_Pod.svg?style=flat)](http://cocoapods.org/pods/KxSMB_Pod)
 [![Platform](https://img.shields.io/cocoapods/p/KxSMB_Pod.svg?style=flat)](http://cocoapods.org/pods/KxSMB_Pod)
 
-## Example
+## Description
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+This is a project that used cocoapods, simple encapsulation of KxSMB
 
-## Requirements
-
-## Installation
-1. in terminal run `git clone https://github.com/harddog/kxsmb.git`
-2. in terminal run  `cd kxsmb`
-3. in terminal run 
+## Usage
+- 1.  in terminal run `git clone https://github.com/harddog/KxSMB_Pod.git`
+- 2.  in terminal run  `cd KxSMB_Pod`
+- 3. in terminal run 
 
 ``` 
 export samba_cv_big_endian=no
@@ -28,14 +26,17 @@ export ac_cv_file__proc_sys_kernel_core_pattern=yes
 
 rake 
 ```
-4. long time ago wait to show `"copy samba/lib/util/talloc_stack.h -> libs"`
-
-KxSMB_Pod is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+- 4. After waiting for a long time, terminal show log `"copy samba/lib/util/talloc_stack.h -> libs"`  
+     (Make sure your Internet connection is very good)
+- 5. In the folder will appear three folders :`libs` `samba` `tmp`,   
+   you need copy `libs` to replace `KxSMB_Pod/Classes/KxSMB/libs`,     
+   then In root directory delete `libs` `samba` `tmp` three folders
+- 6. copy this folder to you project, add the following line to your Podfile:
 
 ```ruby
-pod "KxSMB_Pod"
+pod 'KxSMB_Pod', :path => './KxSMB_Pod/KxSMB_Pod.podspec'
 ```
+
 
 ## Author
 
