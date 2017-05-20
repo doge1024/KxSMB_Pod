@@ -38,7 +38,6 @@ TODO: Add long description of the pod here.
   #   'KxSMB_Pod' => ['KxSMB_Pod/Assets/*.png']
   # }
 
-#s.public_header_files = 'Pod/Classes/**/*.h'
   s.public_header_files = 'KxSMB_Pod/Classes/KxSMB/KxSMBProvider.h'
 
   s.frameworks = 'UIKit', 'CoreGraphics', 'Foundation', 'QuickLook'
