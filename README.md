@@ -31,10 +31,7 @@ mv -f ./libs ./KxSMB_Pod/Classes/KxSMB/libs
 ```
 - 4. After waiting for a long time, terminal show log `"copy samba/lib/util/talloc_stack.h -> libs"`  
      (Make sure your Internet connection is very good)
-- 5. In the folder will appear three folders :`libs` `samba` `tmp`,   
-   you need copy `libs` to replace `KxSMB_Pod/Classes/KxSMB/libs`,     
-   then In root directory delete `libs` `samba` `tmp` three folders
-- 6. copy this folder to you project, add the following line to your Podfile:
+- 5. copy this folder to you project, add the following line to your Podfile:
 
 ```ruby
 pod 'KxSMB_Pod', :path => './KxSMB_Pod/KxSMB_Pod.podspec'
