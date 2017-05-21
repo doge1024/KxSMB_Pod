@@ -25,6 +25,9 @@ export smb_krb5_cv_enctype_to_string_takes_size_t_arg=yes
 export ac_cv_file__proc_sys_kernel_core_pattern=yes
 
 rake 
+rm -r samba
+rm -r tmp
+mv -f ./libs ./KxSMB_Pod/Classes/KxSMB/libs
 ```
 - 4. After waiting for a long time, terminal show log `"copy samba/lib/util/talloc_stack.h -> libs"`  
      (Make sure your Internet connection is very good)
